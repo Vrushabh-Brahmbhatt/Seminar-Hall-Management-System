@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Hall Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container" id="login-form">
+            <h2>Login</h2>
+            <form id="login">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="show-signup">Sign up</a></p>
+        </div>
+
+        <div class="form-container hidden" id="signup-form">
+            <h2>Sign Up</h2>
+            <form id="signup">
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" name="username" required>
+
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="password" required>
+
+                <label for="signup-role">Role:</label>
+                <select id="signup-role" name="role" required>
+                    <option value="user">User</option>
+                    <option value="manager">Manager</option>
+                    <option value="admin">Admin</option>
+                </select>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
