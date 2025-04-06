@@ -37,50 +37,22 @@ The Seminar Hall Management System is designed to streamline the process of book
 
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript, jQuery
-- **Backend**: PHP
-- **Database**: MySQL
-- **Additional Libraries**: Bootstrap, Font Awesome
-
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/HolyKraken14/SeminarHallManagement.git
-   ```
-
-2. Set up a web server environment with PHP and MySQL support (like XAMPP, WAMP, or LAMP)
-
-3. Import the database schema:
-   - Create a new MySQL database
-   - Import `database/seminar_hall_db.sql` into the created database
-
-4. Configure database connection:
-   - Edit `config/database.php` with your database credentials
-
-5. Place the project files in your web server's document root
-
-6. Access the application through your web browser at `http://localhost/SeminarHallManagement`
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js
+- **Database**: MongoDB
 
 ## Usage
 
-### For Students
+### For Users
 - Register for an account
 - Browse available seminar halls
 - Make booking requests
 - View booking history and status
 
-### For Faculty
-- Review and approve student booking requests
-- Schedule events and lectures
-- Request additional resources
-- View calendar of upcoming events
-
 ### For Administrators
 - Manage users and permissions
-- Configure system settings
-- Generate reports
-- Monitor resource utilization
+- Accept or Reject booking requests
+- Change availability of Seminar halls and equipments
 
 ## Contributing
 
